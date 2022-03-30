@@ -110,7 +110,7 @@ st.info("**NOTE:** You may choose either a single text file or a word document t
 text_file = st.file_uploader("Choose a file to upload: ", accept_multiple_files = False, type = ['docx', 'txt', 'None'])
 
 # prompt the user to input a text into the text box
-input_text = st.text_area("Enter your text here: ", value = "", placeholder = "Enter your text here (e.g. I love to eat chicken chop.).")
+input_text = st.text_area("Enter your text here: ", value = "", placeholder = "Enter your text here (e.g. Forensic science, also known as criminalistics, is ...).")
 
 # prompt the user to click on the button to perform text summary
 submit_button = st.button("Perform Text Summarization")
